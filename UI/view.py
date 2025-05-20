@@ -1,7 +1,7 @@
 import flet as ft
 
 
-class View(ft.UserControl):
+class View():
     def __init__(self, page: ft.Page):
         super().__init__()
         # page stuff
